@@ -74,11 +74,11 @@
         <div class="header__bg-slider__wrapper header__bg-slider__wrapper--max-size">
           <div class="header__bg-slider">
 
-            <img
+            <!-- <img
               class="header__bg-top-arrow"
               src="./images/top.svg"
               alt=""
-            >
+            > -->
 
             <input
               class="header__bg-radio"
@@ -105,11 +105,11 @@
             >
             <label for="rad3" class="header__bg-slider-number header__bg-slider-number--03">03</label>
 
-            <img
+            <!-- <img
               class="header__bg-bottom-arrow"
               src="./images/bottom.svg"
               alt=""
-            >
+            > -->
 
           </div>
         </div>
@@ -121,18 +121,18 @@
 
           <div class="header__description">We bake your fantasies: croissants cakes, cookies, and cupcakes.</div>
 
-          <button class="header__button">Learn more</button>
+          <a class="header__button" href="#about">Learn more</a>
         </div>
       </div>
 
       <div class="header__slider__wrapper header__slider__wrapper--min-size">
         <div class="header__slider">
 
-          <img
+          <!-- <img
             class="header__left-arrow"
             src="./images/left.svg"
             alt=""
-          >
+          > -->
 
           <input
             class="header__radio"
@@ -159,11 +159,11 @@
           >
           <label for="ch3" class="header__slider-number header__slider-number--03">03</label>
 
-          <img
+          <!-- <img
             class="header__right-arrow"
             src="./images/right.svg"
             alt=""
-          >
+          > -->
 
         </div>
       </div>
@@ -190,13 +190,13 @@
             </div>
             <div class="bakery__image">
 
-              <span class="bakery__arrow-left"></span>
+              <!-- <span id='firstImageArrowLeft' class="bakery__arrow-left"></span> -->
               <img
-              class="bakery__picture"
+              class="bakery__picture bakery__picture1"
               src="./images/image1.png"
               alt=""
               >
-              <span class="bakery__arrow-right"></span>
+              <!-- <span id='firstImageArrowRight' class="bakery__arrow-right"></span> -->
 
             </div>
           </article>
@@ -215,13 +215,13 @@
             </div>
             <div class="bakery__image">
 
-              <span class="bakery__arrow-left"></span>
+              <!-- <span class="bakery__arrow-left"></span> -->
               <img
                 class="bakery__picture"
                 src="./images/bakery2.png"
                 alt=""
               >
-              <span class="bakery__arrow-right"></span>
+              <!-- <span class="bakery__arrow-right"></span> -->
 
             </div>
           </article>
@@ -237,13 +237,13 @@
             </div>
             <div class="bakery__image">
 
-              <span class="bakery__arrow-left"></span>
+              <!-- <span class="bakery__arrow-left"></span> -->
               <img
                 class="bakery__picture"
                 src="./images/bakery3.png"
                 alt=""
               >
-              <span class="bakery__arrow-right"></span>
+              <!-- <span class="bakery__arrow-right"></span> -->
 
             </div>
           </article>
@@ -261,18 +261,18 @@
             </div>
             <div class="bakery__image">
 
-              <span class="bakery__arrow-left"></span>
+              <!-- <span class="bakery__arrow-left"></span> -->
               <img
                 class="bakery__picture"
                 src="./images/bakery4.png"
                 alt=""
               >
-              <span class="bakery__arrow-right"></span>
+              <!-- <span class="bakery__arrow-right"></span> -->
 
             </div>
           </article>
 
-          <button class="bakery__button">All bakeries</button>
+          <a class="bakery__button" href="#bakery">All bakeries</a>
 
         </section>
 
@@ -435,7 +435,14 @@
                   <li class="contacts__office">
                     <span class="contacts__text">
                       <span class="contacts__bold">Bakerlab Head Office</span>
-                      <br>Ukraine, Kyiv, Holosiivska St, 53
+                      <br>
+                      <a
+                        rel="noopener"
+                        class="contacts__link"
+                        target="_blank"
+                        href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%93%D0%BE%D0%BB%D0%BE%D1%81%D0%B5%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F,+53,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.3970874,30.5100888,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4c8ca89299f11:0x4a4968e0ee2613b5!8m2!3d50.3970874!4d30.5122775">
+                        Ukraine, Kyiv, Holosiivska St, 53
+                      </a>
                     </span>
                   </li>
                   <li class="contacts__phone">
@@ -503,12 +510,11 @@
                   placeholder="Phone"
                 >
 
-                <input
+                <textarea
                   class="form__form-message form--input"
-                  type="text"
                   placeholder="Message*"
-                  required
-                >
+                  required>Message*
+                </textarea>
 
                 <button type="submit" class="form__btn">Send</button>
               </form>

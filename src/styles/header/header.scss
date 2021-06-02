@@ -112,11 +112,13 @@
   }
 
   &__button {
+    display: inline-block;
+    text-align: center;
     font-family: "Rubik", sans-serif;
     width: 160px;
     height: 45px;
     border: 0;
-    line-height: 150%;
+    line-height: 45px;
     cursor: pointer;
 
     background: #e39a3b;

@@ -153,6 +153,7 @@
   &__arrow-left {
     $arrowWidth: 12px;
     $arrowHeight: 20px;
+    cursor: pointer;
     width: 12px;
     height: 20px;
     position: absolute;
@@ -170,6 +171,7 @@
   &__arrow-right {
     $arrowWidth: 12px;
     $arrowHeight: 20px;
+    cursor: pointer;
     width: 12px;
     height: 20px;
     position: absolute;
@@ -191,7 +193,7 @@
     height: 40px;
     background: #e39a3b;
     border-radius: 40px;
-    line-height: 150%;
+    line-height: 40px;
     border: 0;
     cursor: pointer;
     
