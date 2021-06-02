@@ -10,28 +10,28 @@ window.onload = function() {
   const btn6 = document.querySelector(".header__slider-number--03");
 
   btn1.addEventListener('click', () => {
-    document.querySelector(".header").style.backgroundImage = "url(/head.c6782c52.jpg)";
+    document.querySelector(".header").style.backgroundImage = "url(../images/head.jpg)";
     document.querySelector('.header__description').style.color = '#412d22';
   })
   btn2.addEventListener('click', () => {
-    document.querySelector(".header").style.backgroundImage = "url(/bakery2.8448b89b.png)";
+    document.querySelector(".header").style.backgroundImage = "url(../images/bakery2.png)";
     document.querySelector('.header__description').style.color = '#e39a3b';
   })
   btn3.addEventListener('click', () => {
-    document.querySelector(".header").style.backgroundImage = "url(/bakery3.06d04078.png)";
+    document.querySelector(".header").style.backgroundImage = "url(../images/bakery4.png)";
     document.querySelector('.header__description').style.color = '#412d22';
   })
 
   btn4.addEventListener('click', () => {
-    document.querySelector(".header").style.backgroundImage = "url(/head.c6782c52.jpg)";
+    document.querySelector(".header").style.backgroundImage = "url(../images/head.jpg)";
     document.querySelector('.header__description').style.color = '#412d22';
   })
   btn5.addEventListener('click', () => {
-    document.querySelector(".header").style.backgroundImage = "url(/bakery2.8448b89b.png)";
+    document.querySelector(".header").style.backgroundImage = "url(../images/bakery2.png)";
     document.querySelector('.header__description').style.color = '#e39a3b';
   })
   btn6.addEventListener('click', () => {
-    document.querySelector(".header").style.backgroundImage = "url(/bakery3.06d04078.png)";
+    document.querySelector(".header").style.backgroundImage = "url(../images/bakery4.png)";
     document.querySelector('.header__description').style.color = '#412d22';
   })
 }
